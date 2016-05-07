@@ -588,3 +588,11 @@ footer .footer-below {
     color: #2c3e50;
     text-align: justify;
 }
+
+.strip-banner {
+    background: #68b3af; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #68b3af, #2c3e50); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #68b3af, #2c3e50); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #68b3af, #2c3e50); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #68b3af, #2c3e50); /* Standard syntax */
+}
