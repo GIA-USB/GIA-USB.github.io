@@ -590,15 +590,34 @@ footer .footer-below {
 }
 
 .strip-banner {
-    background: #68b3af; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #68b3af, #2c3e50); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #68b3af, #2c3e50); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #68b3af, #2c3e50); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #68b3af, #2c3e50); /* Standard syntax */
+    background-image: url('../img/cromo.jpg'); /* For browsers that do not support gradients */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 550px;
+    /*background: -webkit-linear-gradient(left top, #68b3af, #2c3e50); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(bottom right, #68b3af, #2c3e50); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(bottom right, #68b3af, #2c3e50); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(to bottom right, #68b3af, #2c3e50); /* Standard syntax */
 }
+
+
 
 /*@media (min-width: 979px) {
     .dropdown:hover >.dropdown-menu {
         display: block;
     }
 }*/
+
+.opacidad{
+    background: #2c3e50;
+    background: -webkit-linear-gradient(left top, gray, #2c3e50); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, gray, #2c3e50); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, gray, #2c3e50); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, gray, #2c3e50); /* Standard syntax */
+    height: 550px;
+    width: 100%;
+    opacity: 0.1;
+    position: absolute;
+}
