@@ -621,3 +621,13 @@ footer .footer-below {
     opacity: 0.2;
     position: absolute;
 }
+
+.franja{
+    background: #2c3e50;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    top: 365px;
+    left: 0px;
+    opacity: 0.6;
+}
