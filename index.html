@@ -51,7 +51,7 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navWeb" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -124,6 +124,81 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+    <nav class="navbar navbar-default navbar-fixed-top visible-xs" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top"><img id="logo" src="img/gia1000_b-1.png" height="55"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="index.html">Iniiiiicio</a>
+                    </li>
+                    <li class="page-scroll dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Nosotros</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./nosotros.html#quienesSomos">¿Quiénes somos?</a></li>
+                                <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Profesores</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="./docentes.html#docentes">Actuales</a></li>   
+                                        <li><a href="./docentes.html#jubilados">Históricos</a></li>   
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Estudiantes</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="./estudiantes.html#actuales">Actuales</a></li>   
+                                        <li><a href="./estudiantes.html#alumni">Alumni</a></li>   
+                                    </ul>
+                                </li>
+                            </ul>    
+                    </li>
+                    <li class="page-scroll dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investigación</a>
+                        <ul class="dropdown-menu">
+                            <!--<li><a href="./investigacion.html#proyectos">Líneas de trabajo - Proyectos</a></li>-->
+                            <li><a href="./investigacion.html#tesis">Tesis</a></li>
+                            <li><a href="./investigacion.html#publicaciones">Publicaciones</a></li>
+                        </ul>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Competencias</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./competencias.html#organizadas">Organizadas</a></li>
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Asistencia</a>
+                                <ul class="dropdown-menu" id="competenciasMenu">
+                                    <li><a href="./competencias.html#nacionales">Nacionales</a></li>
+                                    <li><a href="./competencias.html#internacionales">Internacionales</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="page-scroll" id="noticiasMenu">
+                        <a href="./noticias.html#noticias">Noticias</a>
+                    </li>
+                    <!--<li class="page-scroll">
+                        <a href="./galeria.html#galeria">Galería</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
 
     <!-- Header -->
     <header class="strip-banner">
